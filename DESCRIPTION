@@ -1,0 +1,35 @@
+Package: cfSNV
+Type: Package
+Title: Calling mutations for cfDNA data
+Version: 0.99.0
+Authors@R: person(given = "Ran",
+           family = "Hu",
+           role = c("aut", "cre"),
+           email = "huran@ucla.edu",
+           comment = c(ORCID = "0000-0002-0563-8957"))
+Description: cfSNV is an ultra-sensitive and accurate somatic SNV caller 
+    designed for cfDNA sequencing. Taking advantage of modern statistical 
+    models and machine learning approaches, cfSNV provides hierarchical 
+    mutation profiling and multi-layer error suppression, including error 
+    suppression in read mates, site-level error filtration and read-level 
+    error filtration. cfSNV can be freely used for educational and research 
+    purposes by non-profit institutions and U.S. government agencies only 
+    under the UCLA Academic Software License. For information on the use 
+    for a commercial purpose or by a commercial or for-profit entity, please 
+    contact Prof. Xianghong Jasmine Zhou (https://zhoulab.dgsom.ucla.edu/).
+License: CC BY-NC 4.0
+Encoding: UTF-8
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.1.2
+Imports: 
+    Rcpp
+StagedInstall: no
+SystemRequirements: Python 3.7 or higher, java, Samtools, Picard, BEDTools, GATK, BWA, FLASH
+biocViews: Software, GenomicVariation
+VignetteBuilder: knitr
+LinkingTo: 
+    Rcpp

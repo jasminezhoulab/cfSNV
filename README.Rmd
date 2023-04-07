@@ -1,0 +1,115 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+Sys.setlocale('LC_ALL','C')
+```
+
+# cfSNV
+
+<!-- badges: start -->
+[![R-CMD-check-bioc](https://github.com/ben-laufer/DMRichR/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/ben-laufer/DMRichR/actions)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
+
+**Website:** [jasminezhoulab/cfSNV/](https://github.com/jasminezhoulab/cfSNV)
+<!-- badges: end -->
+
+## Overview
+
+`cfSNV` is an ultra-sensitive and accurate somatic SNV caller designed for cfDNA sequencing. 
+
+More specifically, `cfSNV` provides a bioinformatics pipeline:
+
+* `getbam_align()` maps raw reads from fastq (gzip or not) files to the reference genome. 
+* `getbam_align_after_merge()` first merges the overlapping read mates in cfDNA sequencing data and then maps raw reads from fastq (gzip or not) files to the reference genome. 
+* `parameter_recommend()` recommends parameters based on plasma sample coverage.
+* `variant_calling()` calls somatic SNV in cfDNA and reports estimated tumor fraction.
+
+You can learn more about them in `vignette("cfSNV")`.
+
+```{r image-ref-for-in-text, echo = FALSE, message=FALSE, fig.align='center', fig.pos='H'}
+knitr::include_graphics("man/figures/cfSNV_pipeline.png")
+```
+
+## Installation
+
+After downloading the `cfSNV_0.99.0.tar.gz` file to `yourPath`, you can install `cfSNV` using the following code:
+``` r
+install.packages("yourPath/cfSNV_0.99.0.tar.gz", repos = NULL, type = "source")
+```
+
+#### Dependencies 
+* samtools 1.11: https://sourceforge.net/projects/samtools/files/samtools/
+* picard 2.18.4: https://github.com/broadinstitute/picard/releases/tag/2.18.4
+* bedtools 2.30.0: https://github.com/arq5x/bedtools2/releases/tag/v2.30.0
+* GATK 3.8.0: https://github.com/broadgsa/gatk/releases/tag/3.8
+* bwa 0.7.17: http://bio-bwa.sourceforge.net/
+* FLASH2: https://github.com/dstreett/FLASH2
+* java 1.8.0_281 (just need to be compatible with GATK and picard tools)
+* python 3.7.0+
+  * numpy 1.13.3
+  * pandas 0.20.3
+  * scipy 1.1.0
+  * sklearn 0.24.1 (if using other versions, there will be a warining, but may not cause an error)
+* R 4.0+
+  * Rcpp
+  * reticulate
+  * utils
+
+<!-- And the development version from [GitHub](https://github.com/) with: -->
+<!-- ``` r -->
+<!-- # install.packages("devtools") -->
+<!-- devtools::install_github("syslabliu/cfSNV") -->
+<!-- ``` -->
+
+
+## Example
+
+``` {r, include = FALSE}
+demo.dir <- '/Users/huran/Desktop/cfSNV_development/demo/'
+plasma.unmerged <- paste0(demo.dir, 'plasma.recal.bam')
+normal <- paste0(demo.dir, 'normal.recal.bam')
+plasma.merged.extendedFrags <- paste0(demo.dir, 'plasma.extendedFrags.recal.bam')
+plasma.merge.notCombined <- paste0(demo.dir, 'plasma.notCombined.recal.bam')
+target.bed <- paste0(demo.dir, 'example_target_regions.bed')
+reference <- paste0(demo.dir, 'chr22.fa')
+SNP.database <- paste0(demo.dir, 'chr22_dbSNP.vcf')
+samtools.dir <- '/usr/local/bin/samtools'
+picard.dir <- '/usr/local/bin/picard.jar'
+bedtools.dir <- '/usr/local/bin/bedtools2/bin/bedtools'
+sample.id <- '1st'
+MIN_HOLD_SUPPORT_COUNT <- 9
+MIN_PASS_SUPPORT_COUNT <- 3
+```
+
+```{r}
+library(cfSNV)
+
+parameter_recommend(
+  plasma.unmerged, normal,
+  plasma.merged.extendedFrags, plasma.merge.notCombined,
+  target.bed, reference, SNP.database, samtools.dir, sample.id, roughly_estimated_tf = TRUE
+)
+
+results <- variant_calling(
+  plasma.unmerged, normal, plasma.merged.extendedFrags, plasma.merge.notCombined,
+  target.bed, reference, SNP.database, samtools.dir, picard.dir, bedtools.dir,
+  sample.id, MIN_HOLD_SUPPORT_COUNT, MIN_PASS_SUPPORT_COUNT
+)
+
+results$variant.list
+
+results$tumor.fraction
+```
+
+
+

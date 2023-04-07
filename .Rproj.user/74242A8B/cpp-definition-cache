@@ -1,0 +1,1262 @@
+[
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+        "file_last_write": 1630275518.0,
+        "definitions": [
+            {
+                "usr": "c:@F@filterStrandBiasMerge#&I#S0_#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterStrandBiasMerge(int &, int &, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 17,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterBothStrandAboveAverageMerge#&I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterBothStrandAboveAverageMerge(int &, int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 57,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterSupport#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterSupport(std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 78,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterStrandBiasUnmerge#&I#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterStrandBiasUnmerge(int &, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 87,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterBothStrandAboveAverageUnmerge#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterBothStrandAboveAverageUnmerge(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 124,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getGermlineVariantCountThreshold#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getGermlineVariantCountThreshold(double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 139,
+                "column": 5,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@findMajorVariant#&I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "findMajorVariant(int &, int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 143,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterTriallelicPosition#I#C#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterTriallelicPosition(int, char, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 154,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getNormalCountBinomThreshold#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getNormalCountBinomThreshold(double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 181,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterAllMappingQuality#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterAllMappingQuality(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 188,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterVariantMappingQuality#I#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterVariantMappingQuality(int, std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 206,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterVariantBaseQuality#I#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterVariantBaseQuality(int, std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 230,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterSupportingReadsUnmerge#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterSupportingReadsUnmerge(std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 252,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterVAF#d#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterVAF(double, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 262,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterNormalCoverage#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterNormalCoverage(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 270,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterTumorCoverage#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterTumorCoverage(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 277,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@importdbSNP#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "importdbSNP(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 286,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filterSupportingCountByBinomialTest#d#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filterSupportingCountByBinomialTest(double, std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 321,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@finalEstimationWithJenks#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "finalEstimationWithJenks(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.cpp",
+                "line": 333,
+                "column": 30,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_filter.h",
+        "file_last_write": 1629277038.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+        "file_last_write": 1629272372.0,
+        "definitions": [
+            {
+                "usr": "c:@F@factorial#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "factorial(double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 14,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@accessMultipleIndicesString#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#&$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "accessMultipleIndicesString(std::string, std::vector<int> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 27,
+                "column": 19,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getIndicesWhereEqualFromString#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereEqualFromString(std::string, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 50,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@sumVector#&1$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sumVector(const std::vector<double> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 61,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@toUpper#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "toUpper(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 69,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@split#&1$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "split(const std::string &, const std::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 76,
+                "column": 26,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@meanVector#&1I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "meanVector(const int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 91,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@join#&1I#&1$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "join(const int &, const std::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 134,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cmp_pos#&1I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmp_pos(const int &, const int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 141,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cmp_chr#&1I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmp_chr(const int &, const int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 145,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cmp0#&1I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmp0(const int &, const int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 149,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@cmp1#&1I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "cmp1(const int &, const int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.cpp",
+                "line": 158,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+        "file_last_write": 1629272382.0,
+        "definitions": [
+            {
+                "usr": "c:@FT@>1#TsumMap#>@N@std@N@__1@ST>4#T#T#T#T@map4t0.0I>@N@std@N@__1@ST>1#T@less1S1_>@N@std@N@__1@ST>1#T@allocator1>@N@std@N@__1@ST>2#T#T@pair21S1_I#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sumMap(std::map<C, int>)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 16,
+                "column": 5,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TaccessMultipleIndicesVector#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "accessMultipleIndicesVector(std::vector<T> &, std::vector<int>)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 32,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TgetIndicesWhereEqualFromVector#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereEqualFromVector(std::vector<T> &, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 58,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TgetIndicesWhereGreaterThan#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereGreaterThan(std::vector<T> &, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 71,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TgetIndicesWhereGreaterThanOrEqual#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereGreaterThanOrEqual(std::vector<T> &, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 84,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TgetIndicesWhereLessThan#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereLessThan(std::vector<T> &, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 97,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TgetIndicesWhereLessThanOrEqual#&>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S2_#$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getIndicesWhereLessThanOrEqual(std::vector<T> &, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 110,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#Toperator+#&1>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S0_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "operator+(const std::vector<T> &, const std::vector<T> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 124,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#Toperator-#&1>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S0_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "operator-(const std::vector<T> &, const std::vector<T> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 141,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#Toperator*#&1>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S0_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "operator*(const std::vector<T> &, const std::vector<T> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 158,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#Tveclog#&1>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S2_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "veclog(const std::vector<T> &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 174,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TvecContains#>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S1_#S1_#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "vecContains(std::vector<T>, T)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 185,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@FT@>1#TvecMedian#>@N@std@N@__1@ST>2#T#T@vector2t0.0>@N@std@N@__1@ST>1#T@allocator1S1_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "vecMedian(std::vector<T>)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 191,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:_helper.h@F@ltrim#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "ltrim(std::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 224,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@rtrim#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rtrim(std::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 230,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@trim#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "trim(std::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 237,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@ltrim_copy#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "ltrim_copy(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 243,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@rtrim_copy#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rtrim_copy(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 249,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@trim_copy#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "trim_copy(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_helper.h",
+                "line": 255,
+                "column": 20,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.cpp",
+        "file_last_write": 1630226012.0,
+        "definitions": [
+            {
+                "usr": "c:@F@jenksInitMatrices#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "jenksInitMatrices(std::vector<double>, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.cpp",
+                "line": 12,
+                "column": 80,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@jenksMatrices#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "jenksMatrices(std::vector<double>, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.cpp",
+                "line": 25,
+                "column": 80,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@getJenksBreaks#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#$@N@std@N@__1@S@vector>#S0_#$@N@std@N@__1@S@allocator>#S0_#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "getJenksBreaks(std::vector<double>, std::vector<std::vector<double> >, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.cpp",
+                "line": 62,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@separateData#$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "separateData(std::vector<double>, std::vector<double>)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.cpp",
+                "line": 78,
+                "column": 34,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_jenks.h",
+        "file_last_write": 1629272394.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_parameter.cpp",
+        "file_last_write": 1629272400.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_parameter.h",
+        "file_last_write": 1631898166.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+        "file_last_write": 1630188930.0,
+        "definitions": [
+            {
+                "usr": "c:@F@binomialPMF#I#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "binomialPMF(int, int, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 16,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@binomialCDF#I#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "binomialCDF(int, int, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 36,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@countBase#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "countBase(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 42,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@translate_basestring#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#&C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "translate_basestring(std::string &, char &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 52,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@observeVariantProbability#d#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "observeVariantProbability(double, std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 59,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@calculateJointGenotypeTumorFractionLoglikelihood#d#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#&I#S4_#S0_#&C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "calculateJointGenotypeTumorFractionLoglikelihood(double, std::string &, int &, int &, std::string &, char &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 106,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@stringToQual#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "stringToQual(std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.cpp",
+                "line": 143,
+                "column": 21,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/_probability.h",
+        "file_last_write": 1629272424.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+        "file_last_write": 1631341532.0,
+        "definitions": [
+            {
+                "usr": "c:@F@importPredefinedHotspotPrior#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "importPredefinedHotspotPrior(std::fstream)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 23,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@selectHotSpot#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#I#I#S0_#I#I#S0_#I#I#S0_#I#I#I#I#C#I#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "selectHotSpot(std::string, std::string, std::string, int, int, std::string, int, int, std::string, int, int, std::string, int, int, int, int, char, int, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 33,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@calculateTumorFractionLikelihood#d#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#&I#S3_#S0_#S3_#S3_#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "calculateTumorFractionLikelihood(double, std::string, int &, int &, std::string, int &, int &, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 175,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@estimateTumorFraction#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "estimateTumorFraction(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 196,
+                "column": 41,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@hotsportSortHelper#$@S@hotspot#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "hotsportSortHelper(hotspot, hotspot)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 229,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@hotsportSort0#$@S@hotspot#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "hotsportSort0(hotspot, hotspot)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 242,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@hotsportSort1#$@S@hotspot#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "hotsportSort1(hotspot, hotspot)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 246,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@hotsportSort2#$@S@hotspot#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "hotsportSort2(hotspot, hotspot)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 250,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@estimate_TFestimate_main#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#d#S0_#d#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "estimate_TFestimate_main(std::string, double, std::string, double, std::string, std::string)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.cpp",
+                "line": 256,
+                "column": 5,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/estimate_TFestimate.h",
+        "file_last_write": 1629280748.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+        "file_last_write": 1631343334.0,
+        "definitions": [
+            {
+                "usr": "c:@F@boolToChar#b#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "boolToChar(bool)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 122,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generateIntermediateResultWholeFile#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generateIntermediateResultWholeFile(std::string, std::string, std::string, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 126,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generateRecordOneLine#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generateRecordOneLine(std::string, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 181,
+                "column": 26,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@decideOutputStatusOneLine#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "decideOutputStatusOneLine(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 199,
+                "column": 77,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@generateRecordAndOutputWholeFile#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#S0_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "generateRecordAndOutputWholeFile(std::string, std::string, std::string, std::string, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 249,
+                "column": 5,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filter_with_pileup_main#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#S0_#S0_#S0_#d#S0_#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filter_with_pileup_main(std::string, std::string, std::string, std::string, std::string, std::string, double, std::string, double)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.cpp",
+                "line": 302,
+                "column": 5,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/filter_with_pileup.h",
+        "file_last_write": 1629272458.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+        "file_last_write": 1631916122.0,
+        "definitions": [
+            {
+                "usr": "c:@F@calculateJointGenotypeLogposterior#d#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#I#I#S0_#I#I#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "calculateJointGenotypeLogposterior(double, std::string, int, int, std::string, int, int, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 20,
+                "column": 31,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@calculateConfidence#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "calculateConfidence(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 48,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@calculateGenotype#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "calculateGenotype(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 64,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@outputGenotyping#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#I#C#I#I#I#I#I#I#C#S0_#d#d#S0_#d#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "outputGenotyping(std::string, std::string, int, char, int, int, int, int, int, int, char, std::string, double, double, std::string, double, double, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 80,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@callVariants#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#d#d#d#I#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "callVariants(std::string, std::string, double, double, double, int, double, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 130,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@genotype_genotype_main#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#d#d#d#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "genotype_genotype_main(std::string, std::string, double, double, double, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.cpp",
+                "line": 274,
+                "column": 5,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/genotype.genotype.h",
+        "file_last_write": 1631897000.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/hotspot.cpp",
+        "file_last_write": 1630998732.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/hotspot.h",
+        "file_last_write": 1630998898.0,
+        "definitions": [
+            {
+                "usr": "c:@S@hotspot",
+                "kind": 2,
+                "parent_name": "",
+                "name": "hotspot",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/hotspot.h",
+                "line": 15,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+        "file_last_write": 1629269298.0,
+        "definitions": [
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_forward_reverse#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_forward_reverse(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 17,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@mismatch_on_forward_reverse#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "mismatch_on_forward_reverse(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 47,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_star#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_star(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 53,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_caret#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_caret(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 59,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_dollar#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_dollar(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 64,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_indel#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_indel(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 69,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:pileup_operators.hpp@F@match_on_undefined#&$@S@read_parser.hpp@1610#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "match_on_undefined(ReadPkg &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.cpp",
+                "line": 90,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_operators.hpp",
+        "file_last_write": 1629269262.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+        "file_last_write": 1631916116.0,
+        "definitions": [
+            {
+                "usr": "c:@F@split#&1$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#C#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "split(const std::string &, char)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 25,
+                "column": 1,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@find_major_variant#&I#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "find_major_variant(int &, int &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 40,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@get_germline_variant_count_threshold#f#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "get_germline_variant_count_threshold(float)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 62,
+                "column": 5,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@get_normal_count_binom_threshold#f#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "get_normal_count_binom_threshold(float)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 67,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@filter_triallelic_position#&I#I#C#f#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "filter_triallelic_position(int &, int, char, float)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 75,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@ParseFile#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#f#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "ParseFile(std::string, std::string, std::string, float, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.cpp",
+                "line": 111,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/pileup_parser.hpp",
+        "file_last_write": 1629269276.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/py78MachinelearnExtract_features_from_reads_filter_cluster.cpp",
+        "file_last_write": 1631055652.0,
+        "definitions": [
+            {
+                "usr": "c:@F@make_homopolymer#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "make_homopolymer(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/py78MachinelearnExtract_features_from_reads_filter_cluster.cpp",
+                "line": 21,
+                "column": 26,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@read_bed_for_feature#$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "read_bed_for_feature(std::string, int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/py78MachinelearnExtract_features_from_reads_filter_cluster.cpp",
+                "line": 30,
+                "column": 39,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/py78MachinelearnExtract_features_from_reads_filter_cluster.h",
+        "file_last_write": 1628578106.0,
+        "definitions": [],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+        "file_last_write": 1629269294.0,
+        "definitions": [
+            {
+                "usr": "c:read_parser.hpp@S@Parser@F@register_operator#**Fv(#&$@S@read_parser.hpp@1610)#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "register_operator(OpFunction *)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 48,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parser@F@set_input#I#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "set_input(int, std::__1::string &, std::__1::string &, std::__1::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 72,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parser@F@alloc_chars#I#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "alloc_chars(int)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 103,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parser@F@clean_chars#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "clean_chars",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 113,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:read_parser.hpp@S@Parser@F@parse#&$@S@read_parser.hpp@765#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "parse(Rebase &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 123,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parser@F@reorder_according_to_base#&$@N@std@N@__1@S@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@S@allocator>#C#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "reorder_according_to_base(std::__1::string &, std::__1::string &, std::__1::string &, std::__1::string &, std::__1::string &, std::__1::string &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 155,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:read_parser.hpp@S@Parser@F@translate_to_py1_convention#&$@S@read_parser.hpp@765#",
+                "kind": 7,
+                "parent_name": "Parser",
+                "name": "translate_to_py1_convention(Rebase &)",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.cpp",
+                "line": 221,
+                "column": 14,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.hpp",
+        "file_last_write": 1631915736.0,
+        "definitions": [
+            {
+                "usr": "c:read_parser.hpp@T@Rebase",
+                "kind": 8,
+                "parent_name": "",
+                "name": "Rebase",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.hpp",
+                "line": 59,
+                "column": 3,
+                "hidden": false
+            },
+            {
+                "usr": "c:read_parser.hpp@T@ReadPkg",
+                "kind": 8,
+                "parent_name": "",
+                "name": "ReadPkg",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.hpp",
+                "line": 99,
+                "column": 3,
+                "hidden": false
+            },
+            {
+                "usr": "c:read_parser.hpp@T@OpFunction",
+                "kind": 8,
+                "parent_name": "",
+                "name": "OpFunction",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.hpp",
+                "line": 102,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@S@Parser",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Parser",
+                "file": "/Users/huran/Desktop/cfSNV_development/cfSNV/src/read_parser.hpp",
+                "line": 105,
+                "column": 7,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
